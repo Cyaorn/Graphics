@@ -1,0 +1,8 @@
+constants obsidian 0.05375 0.05 0.06625 0.18275 0.17 0.22525 0.332741 0.328634 0.346435
+frames 100
+basename simple_100
+push
+move 250 250 0
+rotate y 360 spin
+torus obsidian 0 0 0 75 125
+vary spin 0 99 0 5

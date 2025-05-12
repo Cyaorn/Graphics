@@ -1,0 +1,29 @@
+push
+
+box
+400 100 0 50 50 50
+
+rotate
+x 30
+
+rotate
+y 30
+
+box
+150 250 0 50 50 50
+
+box
+250 350 80 50 50 50
+
+sphere
+350 350 0 100
+
+torus
+200 150 0 40 150
+
+box
+250 450 300 50 50 50
+ 
+display
+save
+image.png

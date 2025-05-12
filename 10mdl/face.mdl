@@ -1,0 +1,18 @@
+// Note: This uses the light values in the provided source code.
+constants shiny_purple 0.3 0.8 0.2 0.3 0 0 0.3 0.8 0.2
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+push
+move 150 370 0
+rotate x 30
+rotate y 60
+box shiny_purple -40 40 40 80 80 80
+box shiny_purple -40 -40 40 80 80 80
+box shiny_purple -40 -120 40 80 80 80
+box shiny_purple -40 -200 40 80 80 80
+
+box shiny_purple -40 -40 120 80 80 80
+box shiny_purple -40 40 200 80 80 80
+box shiny_purple -40 -40 280 80 80 80
+display
+save lowercaser.png
